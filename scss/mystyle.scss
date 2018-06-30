@@ -4,7 +4,7 @@
 	padding: 0;
 }
 /* Variables */
-$logo-font: 'Courgette', cursive;
+$logo-font: 'Norican', cursive;
 $body-font: 'Muli', sans-serif;
 
 $large-screen: 1200px;
@@ -99,6 +99,7 @@ p,li{
 		h1{
 			font-family: $logo-font;
 			font-size: 90px;
+			letter-spacing: 10px;
 			@media (max-width: $tablet){
 				line-height: 1.2;
 				font-size: 70px;
@@ -148,7 +149,7 @@ p,li{
 			}
 		}
 		.item1{
-			background-image: url(../images/background.jpg);
+			background-image: url(../images/img2.jpg);
 			background-size: cover;
 			@media (max-width: $phone){
 				grid-area: 1 / 1 / 2 / 3;
@@ -229,7 +230,7 @@ p,li{
 			}
 		}
 		.item4{
-			background-image: url(../images/background.jpg);
+			background-image: url(../images/img1.jpeg);
 			background-size: cover;
 			@media (max-width: $phone){
 				grid-area: 3 / 1 / 4 / 3;

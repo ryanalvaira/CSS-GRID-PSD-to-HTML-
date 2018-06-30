@@ -29,7 +29,7 @@ p, li {
       .home .container .item1 {
         grid-area: 1 / 1 / 2 / 3; } }
     .home .container .item1 li {
-      font-family: "Courgette", cursive;
+      font-family: "Norican", cursive;
       font-size: 40px;
       font-weight: bolder; }
       @media (max-width: 768px) {
@@ -73,8 +73,9 @@ p, li {
         .home .heading h3 {
           font-size: 25px; } }
     .home .heading h1 {
-      font-family: "Courgette", cursive;
-      font-size: 90px; }
+      font-family: "Norican", cursive;
+      font-size: 90px;
+      letter-spacing: 10px; }
       @media (max-width: 768px) {
         .home .heading h1 {
           line-height: 1.2;
@@ -116,7 +117,7 @@ p, li {
       .informations .container div {
         height: 350px; } }
   .informations .container .item1 {
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/img2.jpg);
     background-size: cover; }
     @media (max-width: 480px) {
       .informations .container .item1 {
@@ -131,7 +132,7 @@ p, li {
       width: 80%;
       margin: auto; }
       .informations .container .item2 .item2-container h1 {
-        font-family: "Courgette", cursive;
+        font-family: "Norican", cursive;
         font-weight: bolder;
         color: white;
         font-size: 38px;
@@ -162,7 +163,7 @@ p, li {
       width: 80%;
       margin: auto; }
       .informations .container .item3 .item3-container h1 {
-        font-family: "Courgette", cursive;
+        font-family: "Norican", cursive;
         font-weight: bolder;
         color: black;
         font-size: 38px;
@@ -184,7 +185,7 @@ p, li {
         border: 3px solid gray;
         transition: 1s; }
   .informations .container .item4 {
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/img1.jpeg);
     background-size: cover; }
     @media (max-width: 480px) {
       .informations .container .item4 {
@@ -213,7 +214,7 @@ p, li {
     .menu .item6 {
       grid-area: 6 / 1 / 7 / 4; } }
   .menu h1 {
-    font-family: "Courgette", cursive;
+    font-family: "Norican", cursive;
     text-align: center;
     font-size: 38px; }
   .menu .container {
@@ -250,7 +251,7 @@ p, li {
             width: 140px;
             height: 200px; } }
     .menu .container h2 {
-      font-family: "Courgette", cursive;
+      font-family: "Norican", cursive;
       line-height: 2;
       margin-top: 15px; }
     .menu .container .arrow {
@@ -267,7 +268,7 @@ p, li {
         font-size: 25px;
         position: relative;
         top: -35px;
-        font-family: "Courgette", cursive; }
+        font-family: "Norican", cursive; }
       @media (max-width: 480px) {
         .menu .container .arrow {
           grid-area: 7 / 1 / 8 / 4; } }
